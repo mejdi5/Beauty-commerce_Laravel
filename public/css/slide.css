@@ -1,0 +1,27 @@
+
+.slide-info {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slide-title {
+    font-size: 50px;
+    max-height: 30%;
+}
+
+.slide-description {
+    margin: 50px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 1100px ) {
+    .slider-container {
+        display: none
+    }
+}

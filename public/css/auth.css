@@ -1,0 +1,111 @@
+.register-container {
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(
+        rgba(87, 80, 80, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.1designshop.com/wp-content/uploads/2016/01/1dsp-20160108-people005.png")
+        center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-wrapper {
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+}
+
+.register-form, .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register-form-item, .login-form-item{
+    width: 70%;
+}
+
+.register-form-item > div, .login-form-item > div {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.register-form-item > div > label, .login-form-item > div > label {
+    flex: 1
+}
+
+.register-form-item > div > input, .login-form-item > div > input {
+    flex: 2
+}
+
+
+.register-btn, .login-btn {
+    width: 30%;
+    border: none;
+    padding: 10px;
+    background-color: rgb(15, 149, 149);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.register-btn:disabled {
+    background-color: rgb(113, 182, 200);
+}
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(87, 80, 80, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.1designshop.com/wp-content/uploads/2016/01/1dsp-20160108-people005.png")
+        center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper {
+    width: 30%;
+    padding: 30px;
+    background-color: white;
+}
+
+.auth-link {
+    background-color: rgb(33, 135, 160);
+    border:none;
+    color:white;
+    font-weight: bold;
+    padding: 0;
+}
+
+.flash-message {
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

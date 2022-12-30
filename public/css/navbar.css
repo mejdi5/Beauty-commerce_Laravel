@@ -1,0 +1,122 @@
+.navbar-container {
+    height: 60px;
+    background-color: rgb(33, 135, 160);
+    border-radius: 10px;
+}
+
+.navbar-wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-logo:hover {
+    color:black
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
+
+.navbar-center-item {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1vw
+}
+
+.navbar-center-item:hover {
+    color:black
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:20px;
+}
+
+.cart-icon {
+    height: fit-content;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position:relative;
+    margin-right: 5px;
+}
+
+.cart-icon:hover {
+    color:brown
+}
+
+
+.cart-badge {
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+    font-weight: bold;
+    position: absolute;
+    right:0;
+    top:0;
+    bottom:10;
+    padding:0px;
+    text-align: center;
+}
+
+.signin {
+    background-color: rgb(77, 134, 74);
+}
+
+.signup {
+    background-color: purple;
+}
+
+@media (max-width: 800px ) {
+    .navbar-container {
+        height: 60px;
+    }
+
+    .navbar-wrapper {
+        padding: 10px 0px
+    }
+
+    .navbar-right {
+        flex: 2;
+        justify-content: center
+    }
+
+    .navbar-right-item {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar-search-input {
+        width: 50px
+    }
+
+    .navbar-language {
+        display: "none"
+    }
+}
